@@ -4,13 +4,18 @@
   "author": "zengyijun",
   "description": "A Nodejs Project",
   "script": {
-    "serve": "node app.js"
+    "serve": "node app.js",
+    "nodemon": "nodemon app.js"
   },
   "private": true,
   "dependencies": {
+    "koa": "^2.13.0",
     "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
     "koa-router": "^9.4.0",
-    "nodemon": "^2.0.4"
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "eslint": "^3.1.1",
